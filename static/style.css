@@ -359,10 +359,10 @@ form{
 }
 #yop{
     position: absolute;
-    left: 95%;
+    left: 90%;
     /* top: -2%; */
     bottom: 90%;
-    width: 90px;
+    /* width: 90px; */
 }
 
 
@@ -499,6 +499,9 @@ form{
         text-align: center;
     }
     .image{
+        display: none;
+    }
+    #Rasm{
         display: none;
     }
     
