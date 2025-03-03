@@ -350,6 +350,21 @@ form{
     min-width: 500px;
     scroll-snap-type: start;
 }
+.links:hover{
+    color: #9095a7;
+}
+.wrapper-header{
+    position: relative;
+
+}
+#yop{
+    position: absolute;
+    left: 95%;
+    /* top: -2%; */
+    bottom: 90%;
+    width: 90px;
+}
+
 
 
 @media (max-width: 1440px){
@@ -440,6 +455,9 @@ form{
         margin-left: auto;
     }
     .image{
+        display: none;
+    }
+    .rasmm{
         display: none;
     }
     .main-img{
