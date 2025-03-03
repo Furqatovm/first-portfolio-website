@@ -3,10 +3,18 @@
     padding: 0;
     font-size: 16px;
     box-sizing: border-box;
-    font-family:[Be Vietnam Pro];
+    color: #242d52;
 }
-.wrapper-all{
+body{
     background-color: hsl(0, 0%, 98%);
+    position: relative;
+    overflow-x: hidden;
+    font-family: "Be Vietnam Pro", serif;
+}
+.image{
+    position: absolute;
+    left: 48%;
+    top: -8%;
 }
 .logo{
     font-size: 30px;
@@ -16,15 +24,23 @@
 }
 .links{
     text-decoration: none;
-    color: hsl(228, 39%, 23%);
+    color: #242d52;
     font-weight: 500;
 }
 .tugma{
     padding: 13px 50px;
     background-color: #f25f3a;
     border: none;
+    box-shadow: 3px 4px 10px #f25f3a;
     color: #fafafa;
     border-radius: 100px;
+}
+.tugma:hover{
+    cursor: pointer;
+    background-color: #f25f3abe;
+}
+button{
+    cursor: pointer;
 }
 .wrapper-header{
     display: flex;
@@ -84,6 +100,12 @@ nav{
     padding-bottom: 70px;
 
 
+}
+.rasm{
+    position: absolute;
+    z-index: -1;
+    right: 85%;
+    top: 45%;
 }
 .second-left{
     display: flex;
@@ -238,6 +260,98 @@ footer{
     color: #9095a7;
     text-decoration: none;
 }
+.input{
+    padding: 13px 40px;
+    border-radius: 100px;
+    border: none;
+    color: #f25f3a;
+    background-color: #fafafa;
+}
+
+.footer-span{
+    color: #f25f3a;
+    text-align: start;
+    margin-left: 35px;
+}
+form{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.wrapper-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-tugma{
+    padding: 13px 30px;
+    border-radius: 100px;
+    color: #fafafa;
+    background-color: #f25f3a;
+    border: none;
+}
+.built_by{
+    color: #9095a7;
+    margin-top: 40px;
+    text-align: center;
+}
+.wrapper-ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.logos:hover{
+    color: #f25f3a;
+    cursor: pointer;
+    color: transparent;
+    background-color: #f25f3a;
+}
+.logo-footer{
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: bold;
+}
+.main-img{
+    width: 100%;
+}
+.wrapper-all{
+    position: relative;
+    overflow: hidden;
+
+}
+.wrapper-additions{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    z-index: -1;
+}
+
+#opacity{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    opacity: 10%;
+    z-index: -3;
+    position: fixed;
+    display: none;
+}
+.wrapper-client{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    overflow-x: auto;
+    cursor: grab;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+.client-1{
+    min-width: 500px;
+    scroll-snap-type: start;
+}
+
+
 @media (max-width: 1440px){
 
 }
@@ -246,6 +360,7 @@ footer{
     nav{
         display: none;
     }
+    
     .wrapper-btn{
         display: none;
     }
@@ -281,15 +396,67 @@ footer{
     .wrapper-start{
         background-color: hsl(13, 100%, 96%);
     }
-    .wrapper-client{
+    /* .wrapper-client{
         display: flex;
         flex-direction: column;
         gap: 20px;
-    }
+    } */
     .footer-header-wrappper{
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+    .wrapper-footer{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .wrapper-ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+
+    }
+    .footer-span{
+        display: none;
+    }
+    .wrapper-footer-built{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .wrapper-main{
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .wrapper-header{
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .image{
+        display: none;
+    }
+    .main-img{
+        width: 100%;
+    }
+    .sarlavha-h2{
+        text-align: center;
+    }
+    .main-p{
+        text-align: center;
+    }
+    .main-sarlavha{
+        font-size: 48px;
+    }
+    .footer-sarlavha{
+        font-size: 45px;
+        text-align: center;
     }
 }
 
@@ -306,6 +473,15 @@ footer{
     }
     .main-img{
         width: 100%;
+    }
+    .sarlavha-h2{
+        text-align: center;
+    }
+    .main-p{
+        text-align: center;
+    }
+    .image{
+        display: none;
     }
     
 }
