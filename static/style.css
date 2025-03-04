@@ -453,7 +453,7 @@ form{
 
 @media (max-width: 500px){
     .wrapper-main{
-        max-width: 400px;
+        max-width: 380px;
         margin-right: auto;
         margin-left: auto;
     }
