@@ -364,6 +364,11 @@ form{
     bottom: 90%;
     /* width: 90px; */
 }
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
 
@@ -465,17 +470,58 @@ form{
     }
     .sarlavha-h2{
         text-align: center;
+        font-size: 28px;
     }
     .main-p{
         text-align: center;
+        font-size: 14px;
     }
     .main-sarlavha{
-        font-size: 48px;
+        font-size: 30px;
+        text-align: center;
     }
     .footer-sarlavha{
         font-size: 45px;
         text-align: center;
     }
+    .wrapper-main-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .number{
+        font-size: 14px;
+        padding: 5px 18px;
+    }
+    .second-right{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper-matnn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+    .matnn{
+        margin: 0;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    .client-1{
+        min-width: 320px;
+    }
+    .footer-sarlavha{
+        font-size: 28px;
+    }
+
 }
 
 @media (max-width: 344px){
