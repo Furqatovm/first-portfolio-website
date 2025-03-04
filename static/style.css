@@ -370,6 +370,9 @@ form{
     gap: 20px;
 }
 
+.tugmaa{
+    font-weight: bold;
+}
 
 
 @media (max-width: 1440px){
@@ -520,6 +523,9 @@ form{
     }
     .footer-sarlavha{
         font-size: 28px;
+    }
+    .tugmaa{
+        font-weight: bold;
     }
 
 }
