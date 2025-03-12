@@ -380,7 +380,7 @@ form{
 }
 @media (max-width: 768px){
     
-    nav{
+    #nav{
         display: none;
     }
     
@@ -448,6 +448,47 @@ form{
         flex-direction: column-reverse;
         gap: 20px;
     }
+
+    #footer-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+
+    input{
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        gap: 20px;
+    }
+    .footer-link{
+        font-size: 16px;
+        text-align: start;
+    }
+    .wrapper-classs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper-loogos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper-header{
+        padding: 30px 10px;
+    }
+    .client-1{
+        padding: 40px 30px;
+        text-align: center;
+    }
+    
+    
 
 }
 
@@ -527,6 +568,10 @@ form{
     .tugmaa{
         font-weight: bold;
     }
+    .wrapper-footer{
+        display: block;
+    }
+    
 
 }
 
@@ -555,6 +600,9 @@ form{
     }
     #Rasm{
         display: none;
+    }
+    .wrapper-footer{
+        display: block;
     }
     
 }
